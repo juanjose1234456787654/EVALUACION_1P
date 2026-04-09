@@ -1,10 +1,10 @@
-# Universidad [Nombre de la Universidad]  
-## Facultad de [Nombre de la Facultad]  
-### Carrera de [Nombre de la Carrera]  
+# Universidad [UNIVERDIDAD TECNICA DE AMBATO]  
+## Facultad de [FISEI]  
+### Carrera de [SOFTWARE]  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** JUAN JOSE CARVAJAL
+**Fecha:** 08/04/2026
 
 ---
 
@@ -86,7 +86,7 @@ En este caso configuré las siguientes reglas:
 
 Para comprobar su funcionamiento, creé archivos de prueba dentro y fuera de la carpeta `doc`. Al ejecutar `git status`, observé que los archivos `doc/prueba.md`, `doc/prueba.txt`, `error.log` y el contenido de `temp/` no fueron rastreados por Git, mientras que los archivos `prueba_fuera.md` y `prueba_fuera.txt` sí aparecieron como archivos disponibles para seguimiento.
 ---
-
+![Descripción de la imagen](mkadir%20imagenes/preguntados.png)
 ## Pregunta 3 (2 puntos)
 
 **Utilizar Git Flow para desarrollar una nueva funcionalidad llamada `ingresar-encabezado`.**
