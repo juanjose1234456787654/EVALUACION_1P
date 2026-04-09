@@ -90,7 +90,7 @@ Para comprobar su funcionamiento, creé archivos de prueba dentro y fuera de la 
 ## Pregunta 3 (2 puntos)
 
 **Utilizar Git Flow para desarrollar una nueva funcionalidad llamada `ingresar-encabezado`.**
-
+![Descripción de la imagen](mkadir%20imagenes/gitflow.png)
 ### Requisitos:
 
 - Inicializar el repositorio con Git Flow, utilizando las ramas por defecto: `main` y `develop`.
@@ -113,10 +113,26 @@ Para comprobar su funcionamiento, creé archivos de prueba dentro y fuera de la 
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+📝 Respuesta:
 
+### Comandos utilizados
+
+```bash
+git checkout main
+git checkout -b develop
+git push -u origin develop
+git checkout main
+git flow init -f
+git flow feature start ingresar-encabezado
+git add README.md
+git commit -m "Actualizar datos institucionales del encabezado"
+git add README.md
+git commit -m "Completar datos personales del estudiante"
+git flow feature finish ingresar-encabezado
+git checkout develop
+git push origin develop
 ---
-
+![Descripción de la imagen](mkadir%20imagenes/gitflow.png)
 ## Pregunta 4 (2 puntos)
 
 **Trabajo con Issues y Pull Requests**
@@ -143,8 +159,10 @@ Para comprobar su funcionamiento, creé archivos de prueba dentro y fuera de la 
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+Para esta actividad inicialicé Git Flow con el comando:
 
+```bash
+git flow init
 ---
 
 ## Pregunta 5 (2 puntos)
