@@ -69,14 +69,22 @@ git clone https://github.com/TU-USUARIO/NOMBRE-REPO.git
 1. Realizar un **primer commit** que incluya únicamente el archivo `.gitignore` con las reglas de exclusión definidas.
 2. Realizar un **segundo commit** que incluya las creación de los archivos de prueba.
 2. Realizar un **tercer commit** donde se explique en este README la función del archivo `.gitignore` y se muestre evidencia de que los archivos y carpetas indicadas no están siendo rastreadas por Git.
-
+![Descripción de la imagen](mkadir%20imagenes/caminosegundapregunta.png)
 **Importante:**  
 - Solo el **tercer commit** debe llevar el **tag `"Pregunta 2"`**.
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+El archivo `.gitignore` se utiliza para indicar a Git qué archivos o carpetas no deben ser rastreados dentro del repositorio.
 
+En este caso configuré las siguientes reglas:
+
+- `*.log` para ignorar todos los archivos con extensión `.log`
+- `temp/` para ignorar la carpeta `temp`
+- `doc/*.md` para ignorar los archivos `.md` dentro de la carpeta `doc`
+- `doc/*.txt` para ignorar los archivos `.txt` dentro de la carpeta `doc`
+
+Para comprobar su funcionamiento, creé archivos de prueba dentro y fuera de la carpeta `doc`. Al ejecutar `git status`, observé que los archivos `doc/prueba.md`, `doc/prueba.txt`, `error.log` y el contenido de `temp/` no fueron rastreados por Git, mientras que los archivos `prueba_fuera.md` y `prueba_fuera.txt` sí aparecieron como archivos disponibles para seguimiento.
 ---
 
 ## Pregunta 3 (2 puntos)
