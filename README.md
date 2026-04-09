@@ -55,7 +55,7 @@ Luego copié la URL del fork y ejecuté el comando:
 ```bash
 git clone https://github.com/TU-USUARIO/NOMBRE-REPO.git
 ---
-
+![Descripción de la imagen](imagenes/preguntauno.png)
 ## Pregunta 2 (1 punto)
 
 **Configurar un archivo `.gitignore` para que ignore:**
